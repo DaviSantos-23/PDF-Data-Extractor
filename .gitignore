@@ -1,0 +1,36 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de output/gerados
+output/
+*.csv
+
+# Configurações locais / segredos
+.env
+.env.local
+
+# Streamlit
+.streamlit/secrets.toml
+
+# VSCode
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
